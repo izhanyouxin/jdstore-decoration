@@ -14,10 +14,10 @@ Image credits: unsplash.com
 /********************************/
 .fade-carousel {
     position: relative;
-    height: 100vh;
+    height: 50vh;
 }
 .fade-carousel .carousel-inner .item {
-    height: 100vh;
+    height: 50vh;
 }
 .fade-carousel .carousel-indicators > li {
     margin: 0 2px;
@@ -129,3 +129,40 @@ Image credits: unsplash.com
 @media screen and (max-width: 640px){
     .hero h1 { font-size: 4em; }
 }
+
+
+// 部分产品的css
+h4{
+     font-weight: 600;
+ }
+ p{
+   font-size: 12px;
+   margin-top: 5px;
+ }
+ .price{
+   font-size: 30px;
+     margin: 0 auto;
+     color: #333;
+ }
+ .right{
+   float:right;
+   border-bottom: 2px solid #4B8E4B;
+ }
+ .thumbnail{
+   opacity:0.70;
+   -webkit-transition: all 0.5s;
+   transition: all 0.5s;
+ }
+ .thumbnail:hover{
+   opacity:1.00;
+   box-shadow: 0px 0px 10px #4bc6ff;
+ }
+ .line{
+   margin-bottom: 5px;
+ }
+ @media screen and (max-width: 770px) {
+   .right{
+     float:left;
+     width: 100%;
+   }
+ }
