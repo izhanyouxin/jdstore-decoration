@@ -19,7 +19,7 @@ before_action :validate_search_key, only: [:search]
     redirect_to :back
   end
 
-  private
+
   def search
       if @query_string.present?
         search_result = Product.ransack(@search_criteria).result(:distinct => true)
