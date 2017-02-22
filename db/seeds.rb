@@ -24,12 +24,12 @@ products =[{title:"Apple iPhone 6 64GB",
 	              third-party seller approved by Amazon. The product is backed by a minimum 90-day warranty,
 	              and may arrive in a generic brown or white box. Accessories may be generic and not directly
 	              from the manufacturer.",
-	        image_path: "#{Rails.root}/app/assets/images/iphone.jpg"},
+	        image_path: "#{Rails.root}/public/uploads/product/image/1/iphone.jpg"},
 
 	        {title:"A Mid-Back Mesh Chair",
 	        description: "Ergonomic office chair with contoured mesh back for breathability
 	              Pneumatic seat-height adjustment; padded seat for comfort.",
-	        image_path: "#{Rails.root}/app/assets/images/chair.jpg"}
+	        image_path: "#{Rails.root}/public/uploads/product/image/3/medium_chair.jpg"}
 ]
 
 u = User.create([ email: 'admin@test.com' ,  password: '123456' ,password_confirmation:'123456',is_admin:true])
