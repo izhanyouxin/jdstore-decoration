@@ -24,5 +24,13 @@
     已销售一空，无法购买
     <% end %>
     </div>
+    <h3 class="comments_title">
+      <%= @product.comments.count %> Comments
+    </h3>
+    <hr>
+    <div id="comments">
+      <%= render @product.comments%>
+      <%= render "comments/form"%>
+    </div>
   </div>
 </div>
