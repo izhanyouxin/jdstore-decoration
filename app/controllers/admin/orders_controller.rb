@@ -37,4 +37,3 @@ def return
   redirect_to :back
 end
 end
-end
