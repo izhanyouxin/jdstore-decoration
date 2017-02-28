@@ -40,6 +40,7 @@ gem 'acts_as_votable', '~> 0.10.0'
 
 gem 'awesome_rails_console'
 gem 'fog'
+gem 'letter_opener', group: :development
 
 group :development, :test do
   gem 'sqlite3'
