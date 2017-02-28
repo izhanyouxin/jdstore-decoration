@@ -38,6 +38,8 @@ gem 'mini_magick'
 
 gem 'acts_as_votable', '~> 0.10.0'
 
+gem 'awesome_rails_console'
+
 group :development, :test do
   gem 'sqlite3'
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
@@ -59,3 +61,16 @@ end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
+
+# Please clean up duplicated gems if any.
+# Feel free to remove gems that you don't want to use or if they conflict with other gem dependencies. (you might need to update .pryrc also)
+group :development, :test do
+  gem 'hirb'
+  gem 'hirb-unicode'
+  gem 'byebug'
+  gem 'pry-stack_explorer'
+end
+
+group :development, :test do
+  gem 'byebug'
+end

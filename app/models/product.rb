@@ -3,4 +3,7 @@ class Product < ApplicationRecord
 
   acts_as_votable
   has_many :comments
+
+ has_many :favorites
+ has_many :fans, through: :favorites, source: :user
 end

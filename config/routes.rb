@@ -26,6 +26,7 @@ resources :cart_items
 resources :orders
 
 namespace :account do
-  resources :orders
+  resources :orders, :favorites, only: [:index]
 end
+resources :favorites, only: [:create, :destroy]
 end
