@@ -35,6 +35,7 @@ gem 'simple_form'
 gem 'font-awesome-rails'
 gem 'carrierwave'
 gem 'mini_magick'
+gem 'aasm'
 
 gem 'acts_as_votable', '~> 0.10.0'
 
