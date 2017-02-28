@@ -45,9 +45,9 @@ gem 'fog'
 gem 'letter_opener', group: :development
 
 group :development, :test do
-  gem 'sqlite3'
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platform: :mri
+  gem 'sqlite3'
 end
 
 group :production do
